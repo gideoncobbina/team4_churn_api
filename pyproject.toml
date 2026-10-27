@@ -1,0 +1,22 @@
+[project]
+name = "team4-churn-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gideon Cobbina", email = "gideoncobbina26@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "joblib>=1.6.0",
+    "pathlib>=1.0.1",
+    "scikit-learn>=1.9.1",
+    "ucimlrepo>=0.0.7",
+]
+
+[project.scripts]
+team4-churn-api = "team4_churn_api:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
