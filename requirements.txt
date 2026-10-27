@@ -2,3 +2,10 @@ ucimlrepo
 scikit-learn
 joblib
 pathlib
+pandas
+fastapi
+pydantic
+uvicorn
+pytest
+ruff
+httpx2
