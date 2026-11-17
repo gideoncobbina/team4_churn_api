@@ -344,7 +344,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           version: "0.11.2"
-          python-version: "3.12"
+          python-version: "3.14"
       - run: uv sync --locked
       - run: uv run --locked ruff check .
       - run: uv run --locked pytest
